@@ -1,0 +1,4 @@
+1.打开 tomcat安装目录/conf/logging.properties文件，将文件中
+java.util.logging.ConsoleHandler.encoding 对应的值修改为，cmd控制台，所需要的编码，这里修改为gbk
+
+java.util.logging.ConsoleHandler.encoding = gbk
